@@ -21,7 +21,7 @@ class WalletHeader extends StatelessWidget {
           Container(
             height: 50,
             width: 50,
-            margin: EdgeInsets.all(6),
+            
             decoration: BoxDecoration(
               color: primaryColor,
               shape: BoxShape.circle,
@@ -40,6 +40,7 @@ class WalletHeader extends StatelessWidget {
                 ),
                 Center(
                   child: Container(
+                    margin: EdgeInsets.all(6),
                     decoration: BoxDecoration(
                       color: primaryColor,
                       shape: BoxShape.circle,
